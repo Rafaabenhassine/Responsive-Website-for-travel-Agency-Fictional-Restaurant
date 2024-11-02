@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header id="home">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <span
+            ><a class="navbar-brand" href="#home"
+              ><i>Raf Restaurant & co</i></a
+            ></span
+          >
+        </div>
+      </nav>
+      <!-- Navbar -->
+      <nav class="navbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact us</a>
+          </li>
+        </ul>
+        <!-- Barre de recherche et panier -->
+        <div class="d-flex align-items-center search-cart-container">
+          <input type="text" class="form-control mr-2" placeholder="Recherche..." />
+          <button class="btn btn-outline-light mr-3">Rechercher</button>
+          <a href="#cart" class="cart-icon text-white">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="badge badge-pill badge-light">0</span>
+          </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="hero d-flex align-items-center justify-content-center text-center text-white"
+    >
+      <div class="hero-content">
+        <h1>Welcome to Our Restaurant</h1>
+        <p>Delicious food served fresh every day</p>
+        <a href="#menu" class="btn btn-primary">See Our Menu</a>
+      </div>
+    </section>
+
+    <section id="menu" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Menu</h2>
+        <!-- first Row -->
+        <div class="row justify-content-around">
+          <!-- Menu Item 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="https://th.bing.com/th?id=OSK.8f07ef18d3e9deb263d3701a07991b0d"
+                class="card-img-top"
+                alt="Seafood Paella"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dish Name 1: Seafood Paella</h5>
+                <p class="card-text">A delicious blend of fresh seafood and rice.</p>
+                <p class="card-text fw-bold">$18.99</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Menu Item 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="https://bing.com/th?id=OSK.e36c4af1f8f88ac0dec632a9e298b8d1"
+                class="card-img-top"
+                alt="Seafood Pasta"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dish Name 2: Seafood Pasta</h5>
+                <p class="card-text">Pasta with a rich and creamy seafood sauce.</p>
+                <p class="card-text fw-bold">$25.99</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Menu Item 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="https://bing.com/th?id=OSK.3e0127762998bbb0d10cd8fdc76d8ffa"
+                class="card-img-top"
+                alt="Spicy Seafood Spaghetti"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dish Name 3: Spicy Seafood Spaghetti</h5>
+                <p class="card-text">Spaghetti with a spicy kick and fresh seafood.</p>
+                <p class="card-text fw-bold">$18.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+       
+     <!-- Second Row -->
+     <div class="row justify-content-around">
+      <!-- Menu Item 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img
+            src="https://cdn.inoutdelivery.com/hotamericas.inoutdelivery.com.co/lg/1641587331143-pizza-gourmet_3-carnes.webp"
+            class="card-img-top"
+            alt="Dish 4"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Dish Name 4: Pizza Tres Carnes</h5>
+            <p class="card-text">Roast beef, grilled chicken, ham, ranch sauce, and caramelized onions.</p>
+            <p class="card-text fw-bold">$25.99</p>
+          </div>
+        </div>
+      </div>
+          <!-- Menu Item 5 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="https://cdn.inoutdelivery.com/hotamericas.inoutdelivery.com.co/lg/1641587858955-pizza-gourmet_diavola.webp"
+                class="card-img-top"
+                alt="Dish 5"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dish Name 5: Veggie Pizza</h5>
+                <p class="card-text">A delicious pizza topped with fresh vegetables.</p>
+                <p class="card-text fw-bold">$15.99</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Menu Item 6 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img 
+                src="https://cdn.inoutdelivery.com/hotamericas.inoutdelivery.com.co/lg/1641587346077-pizza-gourmet_american-pizza.webp"
+                class="card-img-top"
+                alt="Dish 6"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dish Name 6: American Pizza</h5>
+                <p class="card-text">American pepperoni, bacon, blue cheese, cherry tomatoes, and ranch sauce.</p>
+                <p class="card-text fw-bold">$16.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- About Us Section -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img 
+              src="https://th.bing.com/th/id/R.1a053283ebcd0787ecb855da76d11ac4?rik=0jyqDJZ0dgjIzw&riu=http%3a%2f%2fverdelagoclub.it%2fwp-content%2fuploads%2f2019%2f04%2fRAF-Ristorante-logo-nero.jpg&ehk=9OhY7AHVJ8aRwxXPD%2bS90lZyNJbiHUBz326Ka0INd1A%3d&risl=&pid=ImgRaw&r=0"
+              class="img-fluid"
+              alt="About Us"
+            />
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <div>
+              <h2>About Us</h2>
+              <p>
+                We are a family-owned restaurant offering a variety of delicious
+                dishes prepared with the freshest ingredients. Our mission is to
+                provide you with a memorable dining experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      
+      <a href="tel:+21625688838">Tel: +216 25 688 838</a><br>
+      <a href="mailto:rafaabenhassine0@gmail.com"
+        >Email: rafrestaurant@gmail.com</a
+      >
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a 
+          href="https://www.facebook.com/" 
+          target="_blank"
+            class="text-white"
+            >  
+            <img
+            width="20"
+            height="20"
+            src="./icon facebook 5.png"
+            alt="twitter"
+          /><i class="bi bi-facebook"></i></a>
+        </li>
+
+        <li class="list-inline-item">
+          <a 
+          href="https://www.twitter.com/" 
+          target="_blank"
+            class="text-white"
+            >  
+            <img
+            width="20"
+            height="20"
+            src="./icon twitter.jfif"
+            alt="twitter"
+          /><i class="bi bi-twitter"></i></a>
+        </li>
+
+        <li class="list-inline-item">
+          <a href="https://www.instagram.com/" target="_blank" class="text-white">  <img
+            width="20"
+            height="20"
+            src="./instagram icon petit.jpg"
+            alt="instagram"
+          /><i class="bi bi-instagram"></i></a>
+        </li>
+      </ul>
+      <p>&copy; 2024 Raf Restaurant | Follow us on social media</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
