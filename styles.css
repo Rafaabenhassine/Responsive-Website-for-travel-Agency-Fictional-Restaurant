@@ -197,7 +197,7 @@
 #menu .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-between; /* Changez en "space-between" si vous voulez un autre style */
+  justify-content: space-between; /* Changez en "space-around" pour un autre style */
   overflow-x: auto; /* Permet le défilement horizontal */
   gap: 20px; /* Espacement entre les cartes */
 }
@@ -209,6 +209,13 @@
   margin: 1rem 0; /* Pour un espace vertical entre les lignes de cartes */
 }
 
+.card-body button {
+  background: #0073e6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
 
 /* About Us Section */
 #about {
@@ -307,5 +314,3 @@ footer .list-inline-item a {
 footer .list-inline-item a:hover {
   color: #e74c3c; /* Couleur au survol des icônes */
 }
-
-
